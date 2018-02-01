@@ -7,6 +7,13 @@ public class Data {
 	String FIRSTNAME;
 	String LASTNAME;
 	String CONTACTNO;
+	String SSN;
+	public String getSSN() {
+		return SSN;
+	}
+	public void setSSN(String sSN) {
+		SSN = sSN;
+	}
 	public String getFIRSTNAME() {
 		return FIRSTNAME;
 	}
