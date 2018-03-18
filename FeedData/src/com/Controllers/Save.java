@@ -48,7 +48,7 @@ public class Save extends HttpServlet {
 		String fname=request.getParameter("fname");
 		String lname=request.getParameter("lname");
 		String contactno=request.getParameter("contactno");
-		
+		String Telephone="1345";
 		
 		Data e=new Data();
 		
